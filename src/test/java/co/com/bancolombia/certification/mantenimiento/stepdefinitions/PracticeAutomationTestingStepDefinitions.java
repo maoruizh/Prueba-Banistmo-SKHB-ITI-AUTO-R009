@@ -41,6 +41,6 @@ public class PracticeAutomationTestingStepDefinitions {
 
     @Then("Validate the calculation result")
     public void ValidateTheCalculationResult() {
-        theActorInTheSpotlight().should(seeThat(checkPrice()));
+        theActorInTheSpotlight().should(seeThat(checkPrice (400.00)));
     }
 }
